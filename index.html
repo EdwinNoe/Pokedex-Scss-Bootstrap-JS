@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pokemon</title>
+        <meta name="description" content="Pokedex app using the pokedex API full responsive">
+
+        <!-- open graph  -->
+
+        <meta property="og:title" content="Pokedex">
+        <meta property="og:description" content="Pokedex where you can find every pokemon descriptions and much more!">
+        <meta property="og:type" content="website">
+        <!-- <meta property="og:url" content=""> -->
+        <meta property="og:image" content="./assets/images/OpenGraphimg.png">
+        
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="icon" type="image/jpg" href="./assets/images/Icon.png"/>
+    </head>
+    <body>
+
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid d-flex justify-content-between px-5">
+                    <a class="navbar-brand" href="./index.html">
+                        <img src="./assets/images/Pokemon_Logo.png" alt="Pokemon_Logo" style="width: 200px;">
+                    </a>
+                    <!-- Toggler button -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Navbar links -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="navbar-nav mx-auto">
+                            <!-- Aquí van tus botones de navegación si son necesarios -->
+                        </div>
+                        <div class="form-inline d-flex">
+                            <input class="searchbar form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="jsboton btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        
+        <main>
+            <!-- search div -->
+            <div class=" search search-off">
+                <div class="xmark">
+                    <img  src="./assets/images/xmark-solid.svg" alt="xmark">
+                </div>
+                <div class="search-filter">
+
+                </div>
+
+            </div>
+
+            <!-- cards -->
+            <section class="bg-primary px-5">
+                <section class="section-card1 d-flex justify-content-center section-custom ">
+
+                </section>
+    
+                <section class="section-card2 d-flex justify-content-center section-custom">
+    
+                </section>
+    
+                <section class="section-card3 d-flex justify-content-center section-custom">
+    
+                </section>
+            </section>
+
+
+
+            <!-- next and prev btns -->
+            <div class="btn-toolbar d-flex justify-content-center bg-primary" role="toolbar" aria-label="Toolbar with button groups">
+                <button type="button" class="prev btn btn-terciary btn-lg mx-5">Prev</button>
+                <button type="button" class="next btn btn-terciary btn-lg mx-5">Next</button>
+            </div>
+
+    
+        </main>
+
+        <footer class="footer text-center">
+            <div class="container">
+              <span class="text-muted">© 2024 Mi Sitio Web. <a style="color: black;" href="https://github.com/EdwinNoe">Edwin Argueta.</a> | check my github to see more projects ->
+                <a href="https://github.com/EdwinNoe" target="_blank">
+                  <img style="width: 30px;" src="./assets/images/github.svg" alt="GitHub">
+                </a>
+              </span>
+            </div>
+        </footer>
+        
+
+    </body>
+    <script type="module" src="./scripts/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
